@@ -1,5 +1,0 @@
-if(EXISTS "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/streaming_json_parser/StreamingJsonParserTest[1]_tests.cmake")
-  include("/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/streaming_json_parser/StreamingJsonParserTest[1]_tests.cmake")
-else()
-  add_test(StreamingJsonParserTest_NOT_BUILT StreamingJsonParserTest_NOT_BUILT)
-endif()

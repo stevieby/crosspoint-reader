@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/_deps/googletest-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

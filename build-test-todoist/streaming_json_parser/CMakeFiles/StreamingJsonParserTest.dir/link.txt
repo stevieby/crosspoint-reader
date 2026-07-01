@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/StreamingJsonParserTest.dir/StreamingJsonParserTest.cpp.o "CMakeFiles/StreamingJsonParserTest.dir/Users/stevenpillings/Code/crosspoint-reader-todo/lib/JsonParser/StreamingJsonParser.cpp.o" -o StreamingJsonParserTest  ../lib/libgtest_main.a ../lib/libgtest.a

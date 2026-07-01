@@ -40,6 +40,11 @@ Wi-Fi connects on demand when you open a screen (using your saved networks) and
 is torn down on exit, mirroring the OPDS browser. Uses the Todoist unified API
 v1 over verified HTTPS; no data is stored on device beyond the config file.
 
+**Note:** leaving a Todoist screen (Back button) restarts the device — same as
+the OPDS browser, this is how the firmware releases Wi-Fi/TLS heap cleanly on
+this single-buffer, no-PSRAM hardware. It's expected, not a crash; you'll land
+back on the Home screen a couple of seconds later.
+
 ---
 
 [![Fund contributors](https://img.shields.io/badge/%F0%9F%91%91_Fund_contributors-royalty.dev-BB953A?style=for-the-badge&labelColor=1a1a1a)](https://app.royalty.dev/crosspoint-reader/crosspoint-reader)
