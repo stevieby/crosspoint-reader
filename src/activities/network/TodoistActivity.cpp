@@ -62,6 +62,14 @@ void TodoistActivity::onExit() {
   // WiFi/TLS heap cleanly without fragmenting the single contiguous block.
   if (WiFi.getMode() != WIFI_MODE_NULL) {
     WiFi.disconnect(false);
+
+    // onExit() runs on the main loop task while it already holds the render
+    // mutex (see ActivityManager::loop()), so drawing here directly is safe;
+    // wrapping this in a new RenderLock would deadlock (non-recursive mutex).
+    renderer.clearScreen();
+    renderer.drawCenteredText(UI_10_FONT_ID, renderer.getScreenHeight() / 2, tr(STR_TODOIST_RETURNING_HOME));
+    renderer.displayBuffer();
+
     delay(30);
     silentRestart();
   }
