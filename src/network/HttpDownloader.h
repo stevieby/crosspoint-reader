@@ -39,6 +39,18 @@ class HttpDownloader {
                        const std::string& password = "");
 
   /**
+   * Fetch text content from a URL using a Bearer token, sending
+   * "Authorization: Bearer <token>" (e.g. for REST APIs like Todoist).
+   */
+  static bool fetchBearer(const std::string& url, std::string& outContent, const std::string& bearerToken);
+
+  /**
+   * Issue a bodyless POST with a Bearer token (e.g. Todoist's task "close"
+   * endpoint). Returns true on a 2xx response. The response body is ignored.
+   */
+  static bool postBearer(const std::string& url, const std::string& bearerToken);
+
+  /**
    * Download a file to the SD card with optional credentials.
    */
   static DownloadError downloadToFile(const std::string& url, const std::string& destPath,

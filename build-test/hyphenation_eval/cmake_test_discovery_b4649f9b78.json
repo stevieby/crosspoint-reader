@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "HyphenationEval",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "English",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/hyphenation_eval\/HyphenationEvaluationTest.cpp",
+          "line": 227
+        }
+      ]
+    }
+  ]
+}

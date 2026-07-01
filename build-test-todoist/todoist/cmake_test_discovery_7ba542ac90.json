@@ -1,0 +1,47 @@
+{
+  "tests": 7,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "TodoistQuery",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "TodayQueryIsLiteral",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/todoist\/TodoistQueryTest.cpp",
+          "line": 10
+        },
+        {
+          "name": "GoalsQueryWrapsLabel",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/todoist\/TodoistQueryTest.cpp",
+          "line": 12
+        },
+        {
+          "name": "UrlEncodeEscapesReservedChars",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/todoist\/TodoistQueryTest.cpp",
+          "line": 17
+        },
+        {
+          "name": "PriorityMarker",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/todoist\/TodoistQueryTest.cpp",
+          "line": 23
+        },
+        {
+          "name": "DueTimeExtraction",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/todoist\/TodoistQueryTest.cpp",
+          "line": 31
+        },
+        {
+          "name": "SortTimedFirstThenByPriority",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/todoist\/TodoistQueryTest.cpp",
+          "line": 49
+        },
+        {
+          "name": "SortIsStableForEqualKeys",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/todoist\/TodoistQueryTest.cpp",
+          "line": 66
+        }
+      ]
+    }
+  ]
+}

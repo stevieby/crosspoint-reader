@@ -1,4 +1,46 @@
-# CrossPoint Reader
+# CrossPoint Reader (Todoist fork)
+
+> **This is a personal fork of [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader).**
+> It adds two read-only Todoist screens on top of upstream CrossPoint. A Todoist
+> viewer is intentionally **outside upstream [scope](./SCOPE.md)** ("active
+> connectivity"), so this lives here as a fork and is not intended to be merged
+> upstream. Everything below the next section is the upstream README, unchanged.
+
+## Fork addition: Todoist
+
+Two new Home-menu entries (shown only when `/todoist.txt` exists on the SD card):
+
+- **Today's Tasks** — tasks due today, timed tasks first then untimed (by
+  priority). Each row shows a priority marker, the task text, its
+  project / section, and the first line of the description. A subheader shows
+  the count due today.
+- **Goals This Week** — tasks carrying a user-defined "goal" label that are due
+  within the next 7 days.
+
+On each screen:
+
+- **Complete** (Confirm button) closes the selected task after a yes/no prompt.
+- **Sync** (Left front button) re-fetches from Todoist.
+
+### Setup
+
+Create a plain-text file `/todoist.txt` in the SD-card root:
+
+```text
+<your Todoist API token>
+<your goal label>
+```
+
+- Line 1: your Todoist API token (from Todoist → Settings → Integrations →
+  Developer). Stored in clear text — this is a personal device.
+- Line 2 (optional): the bare label name used to identify "goals" (no leading
+  `@`). Only needed for the Goals screen.
+
+Wi-Fi connects on demand when you open a screen (using your saved networks) and
+is torn down on exit, mirroring the OPDS browser. Uses the Todoist unified API
+v1 over verified HTTPS; no data is stored on device beyond the config file.
+
+---
 
 [![Fund contributors](https://img.shields.io/badge/%F0%9F%91%91_Fund_contributors-royalty.dev-BB953A?style=for-the-badge&labelColor=1a1a1a)](https://app.royalty.dev/crosspoint-reader/crosspoint-reader)
 
@@ -36,7 +78,7 @@ CrossPoint is open-source e-reader firmware - community-built, fully hackable, f
 
 - **Customization**: multiple themes (Classic, Lyra, Lyra Extended, RoundedRaff), sleep screen modes, front/side button remapping, status bar controls, power-button behavior, refresh cadence, and more.
 
-- **Localization**: 24 UI languages and counting. RTL support.
+- **Localization**: 24 UI languages and counting, with RTL support, in upstream CrossPoint. This fork ships English-only (UI strings and hyphenation patterns) to shrink the firmware image.
 
 ### Coming soon:
 

@@ -1,0 +1,19 @@
+[ 14%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+In file included from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/_deps/googletest-src/googletest/src/gtest-all.cc:38:
+In file included from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/_deps/googletest-src/googletest/include/gtest/gtest.h:64:
+In file included from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h:43:
+In file included from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h:47:
+In file included from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h:49:
+/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/_deps/googletest-src/googletest/include/gtest/gtest-printers.h:528:35: warning: implicit conversion from 'char8_t' to 'char32_t' may change the meaning of the represented code unit [-Wcharacter-conversion]
+  528 |   PrintTo(ImplicitCast_<char32_t>(c), os);
+      |           ~~~~~~~~~~~~~           ^
+1 warning generated.
+[ 28%] Linking CXX static library ../../../lib/libgtest.a
+[ 28%] Built target gtest
+[ 42%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 57%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 57%] Built target gtest_main
+[ 85%] Building CXX object todoist/CMakeFiles/TodoistQueryTest.dir/TodoistQueryTest.cpp.o
+[ 85%] Building CXX object todoist/CMakeFiles/TodoistQueryTest.dir/Users/stevenpillings/Code/crosspoint-reader-todo/lib/Todoist/TodoistQuery.cpp.o
+[100%] Linking CXX executable TodoistQueryTest
+[100%] Built target TodoistQueryTest

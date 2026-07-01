@@ -1,0 +1,5 @@
+if(EXISTS "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/hyphenation_eval/HyphenationEvaluationTest[1]_tests.cmake")
+  include("/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/hyphenation_eval/HyphenationEvaluationTest[1]_tests.cmake")
+else()
+  add_test(HyphenationEvaluationTest_NOT_BUILT HyphenationEvaluationTest_NOT_BUILT)
+endif()

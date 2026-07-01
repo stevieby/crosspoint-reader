@@ -1,0 +1,42 @@
+{
+  "tests": 6,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Utf8ComposeNfc",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "PassesThroughAsciiAndNfc",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/utf8_compose\/Utf8ComposeTest.cpp",
+          "line": 19
+        },
+        {
+          "name": "ComposesSingleMark",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/utf8_compose\/Utf8ComposeTest.cpp",
+          "line": 26
+        },
+        {
+          "name": "ComposesStackedVietnameseMarks",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/utf8_compose\/Utf8ComposeTest.cpp",
+          "line": 33
+        },
+        {
+          "name": "LeavesUncomposableMarksIntact",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/utf8_compose\/Utf8ComposeTest.cpp",
+          "line": 42
+        },
+        {
+          "name": "HandlesLeadingMark",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/utf8_compose\/Utf8ComposeTest.cpp",
+          "line": 48
+        },
+        {
+          "name": "ComposesWithinWord",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/utf8_compose\/Utf8ComposeTest.cpp",
+          "line": 51
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+if(EXISTS "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest[1]_tests.cmake")
+  include("/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest[1]_tests.cmake")
+else()
+  add_test(ReleaseJsonParserTest_NOT_BUILT ReleaseJsonParserTest_NOT_BUILT)
+endif()

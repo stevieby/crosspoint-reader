@@ -1,0 +1,5 @@
+if(EXISTS "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/differential_rounding/DifferentialRoundingTest[1]_tests.cmake")
+  include("/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/differential_rounding/DifferentialRoundingTest[1]_tests.cmake")
+else()
+  add_test(DifferentialRoundingTest_NOT_BUILT DifferentialRoundingTest_NOT_BUILT)
+endif()

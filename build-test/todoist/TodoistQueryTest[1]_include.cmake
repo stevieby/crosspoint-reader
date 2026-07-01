@@ -1,0 +1,5 @@
+if(EXISTS "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest[1]_tests.cmake")
+  include("/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest[1]_tests.cmake")
+else()
+  add_test(TodoistQueryTest_NOT_BUILT TodoistQueryTest_NOT_BUILT)
+endif()

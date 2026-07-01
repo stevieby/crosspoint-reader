@@ -14,6 +14,7 @@
 #include "home/HomeActivity.h"
 #include "home/RecentBooksActivity.h"
 #include "network/CrossPointWebServerActivity.h"
+#include "network/TodoistActivity.h"
 #include "reader/ReaderActivity.h"
 #include "settings/OpdsServerListActivity.h"
 #include "settings/SettingsActivity.h"
@@ -191,6 +192,14 @@ void ActivityManager::goToBrowser() {
   } else {
     replaceActivity(std::make_unique<OpdsServerListActivity>(renderer, mappedInput, true));
   }
+}
+
+void ActivityManager::goToTodoistTasks() {
+  replaceActivity(std::make_unique<TodoistActivity>(renderer, mappedInput, TodoistActivity::Mode::Tasks));
+}
+
+void ActivityManager::goToTodoistGoals() {
+  replaceActivity(std::make_unique<TodoistActivity>(renderer, mappedInput, TodoistActivity::Mode::Goals));
 }
 
 void ActivityManager::goToReader(std::string path) {

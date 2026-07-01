@@ -1,0 +1,3 @@
+add_test([=[HyphenationEval.English]=]  /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/hyphenation_eval/HyphenationEvaluationTest [==[--gtest_filter=HyphenationEval.English]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[HyphenationEval.English]=]  PROPERTIES DEF_SOURCE_LINE /Users/stevenpillings/Code/crosspoint-reader-todo/test/hyphenation_eval/HyphenationEvaluationTest.cpp:227 WORKING_DIRECTORY /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/hyphenation_eval SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  HyphenationEvaluationTest_TESTS HyphenationEval.English)

@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/cmake_install.cmake",
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-build/cmake_install.cmake",
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-build/googletest/cmake_install.cmake",
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/cmake_install.cmake",
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/cmake_install.cmake",
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/cmake_install.cmake",
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/hyphenation_eval/cmake_install.cmake",
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose/cmake_install.cmake",
+		"/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

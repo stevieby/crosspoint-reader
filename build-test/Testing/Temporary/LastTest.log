@@ -1,0 +1,2299 @@
+Start testing: Jul 01 16:22 CEST
+----------------------------------------------------------
+1/85 Testing: StreamingJsonParser.SimpleObject
+1/85 Test: StreamingJsonParser.SimpleObject
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.SimpleObject" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.SimpleObject" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.SimpleObject
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.SimpleObject
+[       OK ] StreamingJsonParser.SimpleObject (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.SimpleObject" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.SimpleObject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/85 Testing: StreamingJsonParser.NestedObjects
+2/85 Test: StreamingJsonParser.NestedObjects
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.NestedObjects" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.NestedObjects" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.NestedObjects
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.NestedObjects
+[       OK ] StreamingJsonParser.NestedObjects (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.NestedObjects" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.NestedObjects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/85 Testing: StreamingJsonParser.ArrayOfValues
+3/85 Test: StreamingJsonParser.ArrayOfValues
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ArrayOfValues" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ArrayOfValues" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ArrayOfValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ArrayOfValues
+[       OK ] StreamingJsonParser.ArrayOfValues (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ArrayOfValues" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ArrayOfValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/85 Testing: StreamingJsonParser.ArrayOfObjects
+4/85 Test: StreamingJsonParser.ArrayOfObjects
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ArrayOfObjects" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ArrayOfObjects" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ArrayOfObjects
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ArrayOfObjects
+[       OK ] StreamingJsonParser.ArrayOfObjects (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ArrayOfObjects" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ArrayOfObjects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/85 Testing: StreamingJsonParser.StringEscapes
+5/85 Test: StreamingJsonParser.StringEscapes
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.StringEscapes" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.StringEscapes" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.StringEscapes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.StringEscapes
+[       OK ] StreamingJsonParser.StringEscapes (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.StringEscapes" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.StringEscapes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/85 Testing: StreamingJsonParser.UnicodeEscapePassthrough
+6/85 Test: StreamingJsonParser.UnicodeEscapePassthrough
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.UnicodeEscapePassthrough" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.UnicodeEscapePassthrough" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.UnicodeEscapePassthrough
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.UnicodeEscapePassthrough
+[       OK ] StreamingJsonParser.UnicodeEscapePassthrough (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.UnicodeEscapePassthrough" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.UnicodeEscapePassthrough" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/85 Testing: StreamingJsonParser.Numbers
+7/85 Test: StreamingJsonParser.Numbers
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.Numbers" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.Numbers" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.Numbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.Numbers
+[       OK ] StreamingJsonParser.Numbers (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.Numbers" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.Numbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/85 Testing: StreamingJsonParser.BooleansAndNull
+8/85 Test: StreamingJsonParser.BooleansAndNull
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.BooleansAndNull" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.BooleansAndNull" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.BooleansAndNull
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.BooleansAndNull
+[       OK ] StreamingJsonParser.BooleansAndNull (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.BooleansAndNull" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.BooleansAndNull" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/85 Testing: StreamingJsonParser.ChunkedFeeding
+9/85 Test: StreamingJsonParser.ChunkedFeeding
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ChunkedFeeding" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ChunkedFeeding" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ChunkedFeeding
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ChunkedFeeding
+[       OK ] StreamingJsonParser.ChunkedFeeding (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ChunkedFeeding" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ChunkedFeeding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/85 Testing: StreamingJsonParser.EveryByteBoundary
+10/85 Test: StreamingJsonParser.EveryByteBoundary
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.EveryByteBoundary" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.EveryByteBoundary" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.EveryByteBoundary
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.EveryByteBoundary
+[       OK ] StreamingJsonParser.EveryByteBoundary (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.EveryByteBoundary" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.EveryByteBoundary" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/85 Testing: StreamingJsonParser.LargeTokenTruncation
+11/85 Test: StreamingJsonParser.LargeTokenTruncation
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.LargeTokenTruncation" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.LargeTokenTruncation" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.LargeTokenTruncation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.LargeTokenTruncation
+[       OK ] StreamingJsonParser.LargeTokenTruncation (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.LargeTokenTruncation" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.LargeTokenTruncation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/85 Testing: StreamingJsonParser.EmptyObject
+12/85 Test: StreamingJsonParser.EmptyObject
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.EmptyObject" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.EmptyObject" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.EmptyObject
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.EmptyObject
+[       OK ] StreamingJsonParser.EmptyObject (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.EmptyObject" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.EmptyObject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/85 Testing: StreamingJsonParser.EmptyArray
+13/85 Test: StreamingJsonParser.EmptyArray
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.EmptyArray" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.EmptyArray" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.EmptyArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.EmptyArray
+[       OK ] StreamingJsonParser.EmptyArray (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.EmptyArray" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.EmptyArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/85 Testing: StreamingJsonParser.NestedArrays
+14/85 Test: StreamingJsonParser.NestedArrays
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.NestedArrays" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.NestedArrays" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.NestedArrays
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.NestedArrays
+[       OK ] StreamingJsonParser.NestedArrays (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.NestedArrays" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.NestedArrays" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/85 Testing: StreamingJsonParser.TopLevelArray
+15/85 Test: StreamingJsonParser.TopLevelArray
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.TopLevelArray" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.TopLevelArray" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.TopLevelArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.TopLevelArray
+[       OK ] StreamingJsonParser.TopLevelArray (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.TopLevelArray" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.TopLevelArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/85 Testing: StreamingJsonParser.WhitespaceVariants
+16/85 Test: StreamingJsonParser.WhitespaceVariants
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.WhitespaceVariants" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.WhitespaceVariants" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.WhitespaceVariants
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.WhitespaceVariants
+[       OK ] StreamingJsonParser.WhitespaceVariants (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.WhitespaceVariants" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.WhitespaceVariants" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/85 Testing: StreamingJsonParser.ResetBetweenDocuments
+17/85 Test: StreamingJsonParser.ResetBetweenDocuments
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ResetBetweenDocuments" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ResetBetweenDocuments" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ResetBetweenDocuments
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ResetBetweenDocuments
+[       OK ] StreamingJsonParser.ResetBetweenDocuments (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ResetBetweenDocuments" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ResetBetweenDocuments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/85 Testing: StreamingJsonParser.NumberAtEndOfInput
+18/85 Test: StreamingJsonParser.NumberAtEndOfInput
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.NumberAtEndOfInput" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.NumberAtEndOfInput" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.NumberAtEndOfInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.NumberAtEndOfInput
+[       OK ] StreamingJsonParser.NumberAtEndOfInput (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.NumberAtEndOfInput" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.NumberAtEndOfInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/85 Testing: StreamingJsonParser.ArrayOfStrings
+19/85 Test: StreamingJsonParser.ArrayOfStrings
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ArrayOfStrings" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ArrayOfStrings" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ArrayOfStrings
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ArrayOfStrings
+[       OK ] StreamingJsonParser.ArrayOfStrings (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ArrayOfStrings" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ArrayOfStrings" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/85 Testing: StreamingJsonParser.TruncatedInputNoCrash
+20/85 Test: StreamingJsonParser.TruncatedInputNoCrash
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.TruncatedInputNoCrash" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.TruncatedInputNoCrash" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.TruncatedInputNoCrash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.TruncatedInputNoCrash
+[       OK ] StreamingJsonParser.TruncatedInputNoCrash (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.TruncatedInputNoCrash" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.TruncatedInputNoCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/85 Testing: StreamingJsonParser.AllEscapeSequences
+21/85 Test: StreamingJsonParser.AllEscapeSequences
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.AllEscapeSequences" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.AllEscapeSequences" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.AllEscapeSequences
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.AllEscapeSequences
+[       OK ] StreamingJsonParser.AllEscapeSequences (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.AllEscapeSequences" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.AllEscapeSequences" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/85 Testing: StreamingJsonParser.ObjectInArray
+22/85 Test: StreamingJsonParser.ObjectInArray
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ObjectInArray" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ObjectInArray" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ObjectInArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ObjectInArray
+[       OK ] StreamingJsonParser.ObjectInArray (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ObjectInArray" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ObjectInArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/85 Testing: StreamingJsonParser.DeeplyNested
+23/85 Test: StreamingJsonParser.DeeplyNested
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.DeeplyNested" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.DeeplyNested" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.DeeplyNested
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.DeeplyNested
+[       OK ] StreamingJsonParser.DeeplyNested (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.DeeplyNested" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.DeeplyNested" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/85 Testing: StreamingJsonParser.NestingOverflow
+24/85 Test: StreamingJsonParser.NestingOverflow
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.NestingOverflow" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.NestingOverflow" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.NestingOverflow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.NestingOverflow
+[       OK ] StreamingJsonParser.NestingOverflow (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.NestingOverflow" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.NestingOverflow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/85 Testing: StreamingJsonParser.NumberZero
+25/85 Test: StreamingJsonParser.NumberZero
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.NumberZero" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.NumberZero" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.NumberZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.NumberZero
+[       OK ] StreamingJsonParser.NumberZero (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.NumberZero" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.NumberZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/85 Testing: StreamingJsonParser.MultipleValuesInObject
+26/85 Test: StreamingJsonParser.MultipleValuesInObject
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.MultipleValuesInObject" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.MultipleValuesInObject" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.MultipleValuesInObject
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.MultipleValuesInObject
+[       OK ] StreamingJsonParser.MultipleValuesInObject (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.MultipleValuesInObject" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.MultipleValuesInObject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/85 Testing: StreamingJsonParser.ChunkedSplitInsideString
+27/85 Test: StreamingJsonParser.ChunkedSplitInsideString
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ChunkedSplitInsideString" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ChunkedSplitInsideString" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ChunkedSplitInsideString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ChunkedSplitInsideString
+[       OK ] StreamingJsonParser.ChunkedSplitInsideString (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ChunkedSplitInsideString" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ChunkedSplitInsideString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/85 Testing: StreamingJsonParser.ChunkedSplitInsideEscape
+28/85 Test: StreamingJsonParser.ChunkedSplitInsideEscape
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ChunkedSplitInsideEscape" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ChunkedSplitInsideEscape" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ChunkedSplitInsideEscape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ChunkedSplitInsideEscape
+[       OK ] StreamingJsonParser.ChunkedSplitInsideEscape (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ChunkedSplitInsideEscape" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ChunkedSplitInsideEscape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/85 Testing: StreamingJsonParser.ChunkedSplitInsideLiteral
+29/85 Test: StreamingJsonParser.ChunkedSplitInsideLiteral
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.ChunkedSplitInsideLiteral" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.ChunkedSplitInsideLiteral" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.ChunkedSplitInsideLiteral
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.ChunkedSplitInsideLiteral
+[       OK ] StreamingJsonParser.ChunkedSplitInsideLiteral (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.ChunkedSplitInsideLiteral" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.ChunkedSplitInsideLiteral" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/85 Testing: StreamingJsonParser.NullCallbacksNoCrash
+30/85 Test: StreamingJsonParser.NullCallbacksNoCrash
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser/StreamingJsonParserTest" "--gtest_filter=StreamingJsonParser.NullCallbacksNoCrash" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/streaming_json_parser
+"StreamingJsonParser.NullCallbacksNoCrash" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamingJsonParser.NullCallbacksNoCrash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamingJsonParser
+[ RUN      ] StreamingJsonParser.NullCallbacksNoCrash
+[       OK ] StreamingJsonParser.NullCallbacksNoCrash (0 ms)
+[----------] 1 test from StreamingJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StreamingJsonParser.NullCallbacksNoCrash" end time: Jul 01 16:22 CEST
+"StreamingJsonParser.NullCallbacksNoCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/85 Testing: ReleaseJsonParser.RealisticPrettyPrinted
+31/85 Test: ReleaseJsonParser.RealisticPrettyPrinted
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.RealisticPrettyPrinted" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.RealisticPrettyPrinted" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.RealisticPrettyPrinted
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.RealisticPrettyPrinted
+[       OK ] ReleaseJsonParser.RealisticPrettyPrinted (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.RealisticPrettyPrinted" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.RealisticPrettyPrinted" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/85 Testing: ReleaseJsonParser.RealisticMinified
+32/85 Test: ReleaseJsonParser.RealisticMinified
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.RealisticMinified" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.RealisticMinified" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.RealisticMinified
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.RealisticMinified
+[       OK ] ReleaseJsonParser.RealisticMinified (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.RealisticMinified" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.RealisticMinified" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/85 Testing: ReleaseJsonParser.PrettyAndMinifiedAgree
+33/85 Test: ReleaseJsonParser.PrettyAndMinifiedAgree
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.PrettyAndMinifiedAgree" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.PrettyAndMinifiedAgree" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.PrettyAndMinifiedAgree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.PrettyAndMinifiedAgree
+[       OK ] ReleaseJsonParser.PrettyAndMinifiedAgree (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.PrettyAndMinifiedAgree" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.PrettyAndMinifiedAgree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/85 Testing: ReleaseJsonParser.FirmwareNotFirstAsset
+34/85 Test: ReleaseJsonParser.FirmwareNotFirstAsset
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.FirmwareNotFirstAsset" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.FirmwareNotFirstAsset" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.FirmwareNotFirstAsset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.FirmwareNotFirstAsset
+[       OK ] ReleaseJsonParser.FirmwareNotFirstAsset (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.FirmwareNotFirstAsset" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.FirmwareNotFirstAsset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/85 Testing: ReleaseJsonParser.FieldOrderUrlBeforeName
+35/85 Test: ReleaseJsonParser.FieldOrderUrlBeforeName
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.FieldOrderUrlBeforeName" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.FieldOrderUrlBeforeName" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.FieldOrderUrlBeforeName
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.FieldOrderUrlBeforeName
+[       OK ] ReleaseJsonParser.FieldOrderUrlBeforeName (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.FieldOrderUrlBeforeName" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.FieldOrderUrlBeforeName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/85 Testing: ReleaseJsonParser.FieldOrderSizeBeforeUrl
+36/85 Test: ReleaseJsonParser.FieldOrderSizeBeforeUrl
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.FieldOrderSizeBeforeUrl" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.FieldOrderSizeBeforeUrl" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.FieldOrderSizeBeforeUrl
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.FieldOrderSizeBeforeUrl
+[       OK ] ReleaseJsonParser.FieldOrderSizeBeforeUrl (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.FieldOrderSizeBeforeUrl" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.FieldOrderSizeBeforeUrl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/85 Testing: ReleaseJsonParser.FieldOrderNameFirst
+37/85 Test: ReleaseJsonParser.FieldOrderNameFirst
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.FieldOrderNameFirst" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.FieldOrderNameFirst" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.FieldOrderNameFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.FieldOrderNameFirst
+[       OK ] ReleaseJsonParser.FieldOrderNameFirst (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.FieldOrderNameFirst" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.FieldOrderNameFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/85 Testing: ReleaseJsonParser.AssetsBeforeTagName
+38/85 Test: ReleaseJsonParser.AssetsBeforeTagName
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.AssetsBeforeTagName" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.AssetsBeforeTagName" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.AssetsBeforeTagName
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.AssetsBeforeTagName
+[       OK ] ReleaseJsonParser.AssetsBeforeTagName (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.AssetsBeforeTagName" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.AssetsBeforeTagName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/85 Testing: ReleaseJsonParser.ChunkedFeedingSmallChunks
+39/85 Test: ReleaseJsonParser.ChunkedFeedingSmallChunks
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.ChunkedFeedingSmallChunks" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.ChunkedFeedingSmallChunks" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.ChunkedFeedingSmallChunks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.ChunkedFeedingSmallChunks
+[       OK ] ReleaseJsonParser.ChunkedFeedingSmallChunks (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.ChunkedFeedingSmallChunks" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.ChunkedFeedingSmallChunks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/85 Testing: ReleaseJsonParser.ChunkedFeedingByteByByte
+40/85 Test: ReleaseJsonParser.ChunkedFeedingByteByByte
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.ChunkedFeedingByteByByte" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.ChunkedFeedingByteByByte" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.ChunkedFeedingByteByByte
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.ChunkedFeedingByteByByte
+[       OK ] ReleaseJsonParser.ChunkedFeedingByteByByte (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.ChunkedFeedingByteByByte" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.ChunkedFeedingByteByByte" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/85 Testing: ReleaseJsonParser.ChunkedFeedingVariousChunkSizes
+41/85 Test: ReleaseJsonParser.ChunkedFeedingVariousChunkSizes
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.ChunkedFeedingVariousChunkSizes" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.ChunkedFeedingVariousChunkSizes" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.ChunkedFeedingVariousChunkSizes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.ChunkedFeedingVariousChunkSizes
+[       OK ] ReleaseJsonParser.ChunkedFeedingVariousChunkSizes (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.ChunkedFeedingVariousChunkSizes" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.ChunkedFeedingVariousChunkSizes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/85 Testing: ReleaseJsonParser.MissingTagName
+42/85 Test: ReleaseJsonParser.MissingTagName
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.MissingTagName" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.MissingTagName" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.MissingTagName
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.MissingTagName
+[       OK ] ReleaseJsonParser.MissingTagName (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.MissingTagName" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.MissingTagName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/85 Testing: ReleaseJsonParser.MissingFirmwareBinAsset
+43/85 Test: ReleaseJsonParser.MissingFirmwareBinAsset
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.MissingFirmwareBinAsset" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.MissingFirmwareBinAsset" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.MissingFirmwareBinAsset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.MissingFirmwareBinAsset
+[       OK ] ReleaseJsonParser.MissingFirmwareBinAsset (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.MissingFirmwareBinAsset" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.MissingFirmwareBinAsset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/85 Testing: ReleaseJsonParser.EmptyAssetsArray
+44/85 Test: ReleaseJsonParser.EmptyAssetsArray
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.EmptyAssetsArray" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.EmptyAssetsArray" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.EmptyAssetsArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.EmptyAssetsArray
+[       OK ] ReleaseJsonParser.EmptyAssetsArray (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.EmptyAssetsArray" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.EmptyAssetsArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/85 Testing: ReleaseJsonParser.NoAssetsKey
+45/85 Test: ReleaseJsonParser.NoAssetsKey
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.NoAssetsKey" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.NoAssetsKey" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.NoAssetsKey
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.NoAssetsKey
+[       OK ] ReleaseJsonParser.NoAssetsKey (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.NoAssetsKey" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.NoAssetsKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/85 Testing: ReleaseJsonParser.TruncatedBeforeTagValue
+46/85 Test: ReleaseJsonParser.TruncatedBeforeTagValue
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.TruncatedBeforeTagValue" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.TruncatedBeforeTagValue" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.TruncatedBeforeTagValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.TruncatedBeforeTagValue
+[       OK ] ReleaseJsonParser.TruncatedBeforeTagValue (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.TruncatedBeforeTagValue" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.TruncatedBeforeTagValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/85 Testing: ReleaseJsonParser.TruncatedInsideTagValue
+47/85 Test: ReleaseJsonParser.TruncatedInsideTagValue
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.TruncatedInsideTagValue" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.TruncatedInsideTagValue" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.TruncatedInsideTagValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.TruncatedInsideTagValue
+[       OK ] ReleaseJsonParser.TruncatedInsideTagValue (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.TruncatedInsideTagValue" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.TruncatedInsideTagValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/85 Testing: ReleaseJsonParser.TruncatedInsideAssetsArray
+48/85 Test: ReleaseJsonParser.TruncatedInsideAssetsArray
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.TruncatedInsideAssetsArray" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.TruncatedInsideAssetsArray" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.TruncatedInsideAssetsArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.TruncatedInsideAssetsArray
+[       OK ] ReleaseJsonParser.TruncatedInsideAssetsArray (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.TruncatedInsideAssetsArray" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.TruncatedInsideAssetsArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/85 Testing: ReleaseJsonParser.TruncatedAfterFirmwareName
+49/85 Test: ReleaseJsonParser.TruncatedAfterFirmwareName
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.TruncatedAfterFirmwareName" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.TruncatedAfterFirmwareName" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.TruncatedAfterFirmwareName
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.TruncatedAfterFirmwareName
+[       OK ] ReleaseJsonParser.TruncatedAfterFirmwareName (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.TruncatedAfterFirmwareName" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.TruncatedAfterFirmwareName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/85 Testing: ReleaseJsonParser.TruncatedRealisticJson
+50/85 Test: ReleaseJsonParser.TruncatedRealisticJson
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.TruncatedRealisticJson" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.TruncatedRealisticJson" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.TruncatedRealisticJson
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.TruncatedRealisticJson
+[       OK ] ReleaseJsonParser.TruncatedRealisticJson (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.TruncatedRealisticJson" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.TruncatedRealisticJson" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/85 Testing: ReleaseJsonParser.NestedObjectsInAsset
+51/85 Test: ReleaseJsonParser.NestedObjectsInAsset
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.NestedObjectsInAsset" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.NestedObjectsInAsset" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.NestedObjectsInAsset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.NestedObjectsInAsset
+[       OK ] ReleaseJsonParser.NestedObjectsInAsset (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.NestedObjectsInAsset" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.NestedObjectsInAsset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/85 Testing: ReleaseJsonParser.NestedObjectsAtTopLevel
+52/85 Test: ReleaseJsonParser.NestedObjectsAtTopLevel
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.NestedObjectsAtTopLevel" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.NestedObjectsAtTopLevel" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.NestedObjectsAtTopLevel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.NestedObjectsAtTopLevel
+[       OK ] ReleaseJsonParser.NestedObjectsAtTopLevel (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.NestedObjectsAtTopLevel" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.NestedObjectsAtTopLevel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/85 Testing: ReleaseJsonParser.ArraysAtTopLevel
+53/85 Test: ReleaseJsonParser.ArraysAtTopLevel
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.ArraysAtTopLevel" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.ArraysAtTopLevel" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.ArraysAtTopLevel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.ArraysAtTopLevel
+[       OK ] ReleaseJsonParser.ArraysAtTopLevel (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.ArraysAtTopLevel" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.ArraysAtTopLevel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/85 Testing: ReleaseJsonParser.ResetAndReuse
+54/85 Test: ReleaseJsonParser.ResetAndReuse
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.ResetAndReuse" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.ResetAndReuse" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.ResetAndReuse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.ResetAndReuse
+[       OK ] ReleaseJsonParser.ResetAndReuse (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.ResetAndReuse" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.ResetAndReuse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/85 Testing: ReleaseJsonParser.ResetClearsState
+55/85 Test: ReleaseJsonParser.ResetClearsState
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.ResetClearsState" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.ResetClearsState" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.ResetClearsState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.ResetClearsState
+[       OK ] ReleaseJsonParser.ResetClearsState (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.ResetClearsState" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.ResetClearsState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/85 Testing: ReleaseJsonParser.PartialAssetNameMatch
+56/85 Test: ReleaseJsonParser.PartialAssetNameMatch
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.PartialAssetNameMatch" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.PartialAssetNameMatch" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.PartialAssetNameMatch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.PartialAssetNameMatch
+[       OK ] ReleaseJsonParser.PartialAssetNameMatch (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.PartialAssetNameMatch" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.PartialAssetNameMatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/85 Testing: ReleaseJsonParser.FirmwareBinExactMatch
+57/85 Test: ReleaseJsonParser.FirmwareBinExactMatch
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.FirmwareBinExactMatch" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.FirmwareBinExactMatch" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.FirmwareBinExactMatch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.FirmwareBinExactMatch
+[       OK ] ReleaseJsonParser.FirmwareBinExactMatch (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.FirmwareBinExactMatch" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.FirmwareBinExactMatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/85 Testing: ReleaseJsonParser.LargeSize
+58/85 Test: ReleaseJsonParser.LargeSize
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.LargeSize" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.LargeSize" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.LargeSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.LargeSize
+[       OK ] ReleaseJsonParser.LargeSize (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.LargeSize" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.LargeSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/85 Testing: ReleaseJsonParser.SizeZero
+59/85 Test: ReleaseJsonParser.SizeZero
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.SizeZero" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.SizeZero" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.SizeZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.SizeZero
+[       OK ] ReleaseJsonParser.SizeZero (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.SizeZero" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.SizeZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/85 Testing: ReleaseJsonParser.MinimalValidJson
+60/85 Test: ReleaseJsonParser.MinimalValidJson
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.MinimalValidJson" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.MinimalValidJson" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.MinimalValidJson
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.MinimalValidJson
+[       OK ] ReleaseJsonParser.MinimalValidJson (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.MinimalValidJson" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.MinimalValidJson" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/85 Testing: ReleaseJsonParser.ChunkedRealisticEveryBoundary
+61/85 Test: ReleaseJsonParser.ChunkedRealisticEveryBoundary
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser/ReleaseJsonParserTest" "--gtest_filter=ReleaseJsonParser.ChunkedRealisticEveryBoundary" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/release_json_parser
+"ReleaseJsonParser.ChunkedRealisticEveryBoundary" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReleaseJsonParser.ChunkedRealisticEveryBoundary
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReleaseJsonParser
+[ RUN      ] ReleaseJsonParser.ChunkedRealisticEveryBoundary
+[       OK ] ReleaseJsonParser.ChunkedRealisticEveryBoundary (0 ms)
+[----------] 1 test from ReleaseJsonParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReleaseJsonParser.ChunkedRealisticEveryBoundary" end time: Jul 01 16:22 CEST
+"ReleaseJsonParser.ChunkedRealisticEveryBoundary" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/85 Testing: Fp4Math.RoundTripIntegerPixels
+62/85 Test: Fp4Math.RoundTripIntegerPixels
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=Fp4Math.RoundTripIntegerPixels" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"Fp4Math.RoundTripIntegerPixels" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Fp4Math.RoundTripIntegerPixels
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Fp4Math
+[ RUN      ] Fp4Math.RoundTripIntegerPixels
+[       OK ] Fp4Math.RoundTripIntegerPixels (0 ms)
+[----------] 1 test from Fp4Math (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Fp4Math.RoundTripIntegerPixels" end time: Jul 01 16:22 CEST
+"Fp4Math.RoundTripIntegerPixels" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/85 Testing: Fp4Math.RoundingBoundaries
+63/85 Test: Fp4Math.RoundingBoundaries
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=Fp4Math.RoundingBoundaries" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"Fp4Math.RoundingBoundaries" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Fp4Math.RoundingBoundaries
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Fp4Math
+[ RUN      ] Fp4Math.RoundingBoundaries
+[       OK ] Fp4Math.RoundingBoundaries (0 ms)
+[----------] 1 test from Fp4Math (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Fp4Math.RoundingBoundaries" end time: Jul 01 16:22 CEST
+"Fp4Math.RoundingBoundaries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/85 Testing: Fp4Math.OldApproachInconsistency
+64/85 Test: Fp4Math.OldApproachInconsistency
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=Fp4Math.OldApproachInconsistency" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"Fp4Math.OldApproachInconsistency" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Fp4Math.OldApproachInconsistency
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Fp4Math
+[ RUN      ] Fp4Math.OldApproachInconsistency
+[       OK ] Fp4Math.OldApproachInconsistency (0 ms)
+[----------] 1 test from Fp4Math (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Fp4Math.OldApproachInconsistency" end time: Jul 01 16:22 CEST
+"Fp4Math.OldApproachInconsistency" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/85 Testing: Fp4Math.ExhaustiveKernRange
+65/85 Test: Fp4Math.ExhaustiveKernRange
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=Fp4Math.ExhaustiveKernRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"Fp4Math.ExhaustiveKernRange" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Fp4Math.ExhaustiveKernRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Fp4Math
+[ RUN      ] Fp4Math.ExhaustiveKernRange
+[       OK ] Fp4Math.ExhaustiveKernRange (0 ms)
+[----------] 1 test from Fp4Math (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Fp4Math.ExhaustiveKernRange" end time: Jul 01 16:22 CEST
+"Fp4Math.ExhaustiveKernRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/85 Testing: EpdFont.KernLookup
+66/85 Test: EpdFont.KernLookup
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=EpdFont.KernLookup" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"EpdFont.KernLookup" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EpdFont.KernLookup
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EpdFont
+[ RUN      ] EpdFont.KernLookup
+[       OK ] EpdFont.KernLookup (0 ms)
+[----------] 1 test from EpdFont (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EpdFont.KernLookup" end time: Jul 01 16:22 CEST
+"EpdFont.KernLookup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/85 Testing: EpdFont.GlyphLookup
+67/85 Test: EpdFont.GlyphLookup
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=EpdFont.GlyphLookup" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"EpdFont.GlyphLookup" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EpdFont.GlyphLookup
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EpdFont
+[ RUN      ] EpdFont.GlyphLookup
+[       OK ] EpdFont.GlyphLookup (0 ms)
+[----------] 1 test from EpdFont (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EpdFont.GlyphLookup" end time: Jul 01 16:22 CEST
+"EpdFont.GlyphLookup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/85 Testing: EpdFont.KnownWidths
+68/85 Test: EpdFont.KnownWidths
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=EpdFont.KnownWidths" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"EpdFont.KnownWidths" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EpdFont.KnownWidths
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EpdFont
+[ RUN      ] EpdFont.KnownWidths
+[       OK ] EpdFont.KnownWidths (0 ms)
+[----------] 1 test from EpdFont (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EpdFont.KnownWidths" end time: Jul 01 16:22 CEST
+"EpdFont.KnownWidths" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/85 Testing: EpdFont.PairConsistencyViaFont
+69/85 Test: EpdFont.PairConsistencyViaFont
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=EpdFont.PairConsistencyViaFont" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"EpdFont.PairConsistencyViaFont" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EpdFont.PairConsistencyViaFont
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EpdFont
+[ RUN      ] EpdFont.PairConsistencyViaFont
+[       OK ] EpdFont.PairConsistencyViaFont (0 ms)
+[----------] 1 test from EpdFont (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EpdFont.PairConsistencyViaFont" end time: Jul 01 16:22 CEST
+"EpdFont.PairConsistencyViaFont" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/85 Testing: EpdFont.NullGlyphAdvancePreserved
+70/85 Test: EpdFont.NullGlyphAdvancePreserved
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=EpdFont.NullGlyphAdvancePreserved" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"EpdFont.NullGlyphAdvancePreserved" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EpdFont.NullGlyphAdvancePreserved
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EpdFont
+[ RUN      ] EpdFont.NullGlyphAdvancePreserved
+[       OK ] EpdFont.NullGlyphAdvancePreserved (0 ms)
+[----------] 1 test from EpdFont (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EpdFont.NullGlyphAdvancePreserved" end time: Jul 01 16:22 CEST
+"EpdFont.NullGlyphAdvancePreserved" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/85 Testing: EpdFont.HeightCalculation
+71/85 Test: EpdFont.HeightCalculation
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding/DifferentialRoundingTest" "--gtest_filter=EpdFont.HeightCalculation" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/differential_rounding
+"EpdFont.HeightCalculation" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EpdFont.HeightCalculation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EpdFont
+[ RUN      ] EpdFont.HeightCalculation
+[       OK ] EpdFont.HeightCalculation (0 ms)
+[----------] 1 test from EpdFont (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EpdFont.HeightCalculation" end time: Jul 01 16:22 CEST
+"EpdFont.HeightCalculation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/85 Testing: HyphenationEval.English
+72/85 Test: HyphenationEval.English
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/hyphenation_eval/HyphenationEvaluationTest" "--gtest_filter=HyphenationEval.English" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/hyphenation_eval
+"HyphenationEval.English" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HyphenationEval.English
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyphenationEval
+[ RUN      ] HyphenationEval.English
+english: F1=99.1023% (threshold 98.1%, 5000 cases)
+[       OK ] HyphenationEval.English (4 ms)
+[----------] 1 test from HyphenationEval (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HyphenationEval.English" end time: Jul 01 16:22 CEST
+"HyphenationEval.English" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/85 Testing: Utf8ComposeNfc.PassesThroughAsciiAndNfc
+73/85 Test: Utf8ComposeNfc.PassesThroughAsciiAndNfc
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose/Utf8ComposeTest" "--gtest_filter=Utf8ComposeNfc.PassesThroughAsciiAndNfc" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose
+"Utf8ComposeNfc.PassesThroughAsciiAndNfc" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Utf8ComposeNfc.PassesThroughAsciiAndNfc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Utf8ComposeNfc
+[ RUN      ] Utf8ComposeNfc.PassesThroughAsciiAndNfc
+[       OK ] Utf8ComposeNfc.PassesThroughAsciiAndNfc (0 ms)
+[----------] 1 test from Utf8ComposeNfc (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Utf8ComposeNfc.PassesThroughAsciiAndNfc" end time: Jul 01 16:22 CEST
+"Utf8ComposeNfc.PassesThroughAsciiAndNfc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/85 Testing: Utf8ComposeNfc.ComposesSingleMark
+74/85 Test: Utf8ComposeNfc.ComposesSingleMark
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose/Utf8ComposeTest" "--gtest_filter=Utf8ComposeNfc.ComposesSingleMark" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose
+"Utf8ComposeNfc.ComposesSingleMark" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Utf8ComposeNfc.ComposesSingleMark
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Utf8ComposeNfc
+[ RUN      ] Utf8ComposeNfc.ComposesSingleMark
+[       OK ] Utf8ComposeNfc.ComposesSingleMark (0 ms)
+[----------] 1 test from Utf8ComposeNfc (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Utf8ComposeNfc.ComposesSingleMark" end time: Jul 01 16:22 CEST
+"Utf8ComposeNfc.ComposesSingleMark" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/85 Testing: Utf8ComposeNfc.ComposesStackedVietnameseMarks
+75/85 Test: Utf8ComposeNfc.ComposesStackedVietnameseMarks
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose/Utf8ComposeTest" "--gtest_filter=Utf8ComposeNfc.ComposesStackedVietnameseMarks" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose
+"Utf8ComposeNfc.ComposesStackedVietnameseMarks" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Utf8ComposeNfc.ComposesStackedVietnameseMarks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Utf8ComposeNfc
+[ RUN      ] Utf8ComposeNfc.ComposesStackedVietnameseMarks
+[       OK ] Utf8ComposeNfc.ComposesStackedVietnameseMarks (0 ms)
+[----------] 1 test from Utf8ComposeNfc (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Utf8ComposeNfc.ComposesStackedVietnameseMarks" end time: Jul 01 16:22 CEST
+"Utf8ComposeNfc.ComposesStackedVietnameseMarks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/85 Testing: Utf8ComposeNfc.LeavesUncomposableMarksIntact
+76/85 Test: Utf8ComposeNfc.LeavesUncomposableMarksIntact
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose/Utf8ComposeTest" "--gtest_filter=Utf8ComposeNfc.LeavesUncomposableMarksIntact" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose
+"Utf8ComposeNfc.LeavesUncomposableMarksIntact" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Utf8ComposeNfc.LeavesUncomposableMarksIntact
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Utf8ComposeNfc
+[ RUN      ] Utf8ComposeNfc.LeavesUncomposableMarksIntact
+[       OK ] Utf8ComposeNfc.LeavesUncomposableMarksIntact (0 ms)
+[----------] 1 test from Utf8ComposeNfc (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Utf8ComposeNfc.LeavesUncomposableMarksIntact" end time: Jul 01 16:22 CEST
+"Utf8ComposeNfc.LeavesUncomposableMarksIntact" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/85 Testing: Utf8ComposeNfc.HandlesLeadingMark
+77/85 Test: Utf8ComposeNfc.HandlesLeadingMark
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose/Utf8ComposeTest" "--gtest_filter=Utf8ComposeNfc.HandlesLeadingMark" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose
+"Utf8ComposeNfc.HandlesLeadingMark" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Utf8ComposeNfc.HandlesLeadingMark
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Utf8ComposeNfc
+[ RUN      ] Utf8ComposeNfc.HandlesLeadingMark
+[       OK ] Utf8ComposeNfc.HandlesLeadingMark (0 ms)
+[----------] 1 test from Utf8ComposeNfc (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Utf8ComposeNfc.HandlesLeadingMark" end time: Jul 01 16:22 CEST
+"Utf8ComposeNfc.HandlesLeadingMark" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/85 Testing: Utf8ComposeNfc.ComposesWithinWord
+78/85 Test: Utf8ComposeNfc.ComposesWithinWord
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose/Utf8ComposeTest" "--gtest_filter=Utf8ComposeNfc.ComposesWithinWord" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/utf8_compose
+"Utf8ComposeNfc.ComposesWithinWord" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Utf8ComposeNfc.ComposesWithinWord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Utf8ComposeNfc
+[ RUN      ] Utf8ComposeNfc.ComposesWithinWord
+[       OK ] Utf8ComposeNfc.ComposesWithinWord (0 ms)
+[----------] 1 test from Utf8ComposeNfc (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Utf8ComposeNfc.ComposesWithinWord" end time: Jul 01 16:22 CEST
+"Utf8ComposeNfc.ComposesWithinWord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/85 Testing: TodoistQuery.TodayQueryIsLiteral
+79/85 Test: TodoistQuery.TodayQueryIsLiteral
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest" "--gtest_filter=TodoistQuery.TodayQueryIsLiteral" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist
+"TodoistQuery.TodayQueryIsLiteral" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TodoistQuery.TodayQueryIsLiteral
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TodoistQuery
+[ RUN      ] TodoistQuery.TodayQueryIsLiteral
+[       OK ] TodoistQuery.TodayQueryIsLiteral (0 ms)
+[----------] 1 test from TodoistQuery (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TodoistQuery.TodayQueryIsLiteral" end time: Jul 01 16:22 CEST
+"TodoistQuery.TodayQueryIsLiteral" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/85 Testing: TodoistQuery.GoalsQueryWrapsLabel
+80/85 Test: TodoistQuery.GoalsQueryWrapsLabel
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest" "--gtest_filter=TodoistQuery.GoalsQueryWrapsLabel" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist
+"TodoistQuery.GoalsQueryWrapsLabel" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TodoistQuery.GoalsQueryWrapsLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TodoistQuery
+[ RUN      ] TodoistQuery.GoalsQueryWrapsLabel
+[       OK ] TodoistQuery.GoalsQueryWrapsLabel (0 ms)
+[----------] 1 test from TodoistQuery (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TodoistQuery.GoalsQueryWrapsLabel" end time: Jul 01 16:22 CEST
+"TodoistQuery.GoalsQueryWrapsLabel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/85 Testing: TodoistQuery.UrlEncodeEscapesReservedChars
+81/85 Test: TodoistQuery.UrlEncodeEscapesReservedChars
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest" "--gtest_filter=TodoistQuery.UrlEncodeEscapesReservedChars" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist
+"TodoistQuery.UrlEncodeEscapesReservedChars" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TodoistQuery.UrlEncodeEscapesReservedChars
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TodoistQuery
+[ RUN      ] TodoistQuery.UrlEncodeEscapesReservedChars
+[       OK ] TodoistQuery.UrlEncodeEscapesReservedChars (0 ms)
+[----------] 1 test from TodoistQuery (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TodoistQuery.UrlEncodeEscapesReservedChars" end time: Jul 01 16:22 CEST
+"TodoistQuery.UrlEncodeEscapesReservedChars" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/85 Testing: TodoistQuery.PriorityMarker
+82/85 Test: TodoistQuery.PriorityMarker
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest" "--gtest_filter=TodoistQuery.PriorityMarker" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist
+"TodoistQuery.PriorityMarker" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TodoistQuery.PriorityMarker
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TodoistQuery
+[ RUN      ] TodoistQuery.PriorityMarker
+[       OK ] TodoistQuery.PriorityMarker (0 ms)
+[----------] 1 test from TodoistQuery (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TodoistQuery.PriorityMarker" end time: Jul 01 16:22 CEST
+"TodoistQuery.PriorityMarker" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/85 Testing: TodoistQuery.DueTimeExtraction
+83/85 Test: TodoistQuery.DueTimeExtraction
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest" "--gtest_filter=TodoistQuery.DueTimeExtraction" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist
+"TodoistQuery.DueTimeExtraction" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TodoistQuery.DueTimeExtraction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TodoistQuery
+[ RUN      ] TodoistQuery.DueTimeExtraction
+[       OK ] TodoistQuery.DueTimeExtraction (0 ms)
+[----------] 1 test from TodoistQuery (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TodoistQuery.DueTimeExtraction" end time: Jul 01 16:22 CEST
+"TodoistQuery.DueTimeExtraction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/85 Testing: TodoistQuery.SortTimedFirstThenByPriority
+84/85 Test: TodoistQuery.SortTimedFirstThenByPriority
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest" "--gtest_filter=TodoistQuery.SortTimedFirstThenByPriority" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist
+"TodoistQuery.SortTimedFirstThenByPriority" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TodoistQuery.SortTimedFirstThenByPriority
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TodoistQuery
+[ RUN      ] TodoistQuery.SortTimedFirstThenByPriority
+[       OK ] TodoistQuery.SortTimedFirstThenByPriority (0 ms)
+[----------] 1 test from TodoistQuery (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TodoistQuery.SortTimedFirstThenByPriority" end time: Jul 01 16:22 CEST
+"TodoistQuery.SortTimedFirstThenByPriority" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/85 Testing: TodoistQuery.SortIsStableForEqualKeys
+85/85 Test: TodoistQuery.SortIsStableForEqualKeys
+Command: "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist/TodoistQueryTest" "--gtest_filter=TodoistQuery.SortIsStableForEqualKeys" "--gtest_also_run_disabled_tests"
+Directory: /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/todoist
+"TodoistQuery.SortIsStableForEqualKeys" start time: Jul 01 16:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/stevenpillings/Code/crosspoint-reader-todo/build-test/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TodoistQuery.SortIsStableForEqualKeys
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TodoistQuery
+[ RUN      ] TodoistQuery.SortIsStableForEqualKeys
+[       OK ] TodoistQuery.SortIsStableForEqualKeys (0 ms)
+[----------] 1 test from TodoistQuery (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TodoistQuery.SortIsStableForEqualKeys" end time: Jul 01 16:22 CEST
+"TodoistQuery.SortIsStableForEqualKeys" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 01 16:22 CEST

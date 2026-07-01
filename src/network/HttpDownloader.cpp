@@ -44,7 +44,7 @@ bool isRedirect(int status) {
 // that ends early as ESP_ERR_HTTP_INCOMPLETE_DATA, whereas the read loop streams
 // large/slow files and surfaces a short read directly.
 HttpDownloader::DownloadError runGet(const std::string& url, const std::string& username, const std::string& password,
-                                     Sink& sink) {
+                                     const std::string& bearerToken, Sink& sink) {
   esp_http_client_config_t config = {};
   config.url = url.c_str();
   config.buffer_size = HTTP_RX_BUF;
@@ -66,7 +66,11 @@ HttpDownloader::DownloadError runGet(const std::string& url, const std::string& 
   }
 
   esp_http_client_set_header(client, "User-Agent", "CrossPoint-ESP32-" CROSSPOINT_VERSION);
-  if (!username.empty() && !password.empty()) {
+  if (!bearerToken.empty()) {
+    // Bearer auth for REST APIs (e.g. Todoist). Takes precedence over Basic.
+    const std::string header = "Bearer " + bearerToken;
+    esp_http_client_set_header(client, "Authorization", header.c_str());
+  } else if (!username.empty() && !password.empty()) {
     // Preemptive Basic auth, like the prior addHeader; don't wait for a 401.
     const std::string credentials = username + ":" + password;
     const String header = "Basic " + base64::encode(credentials.c_str());
@@ -148,7 +152,7 @@ bool HttpDownloader::fetchUrl(const std::string& url, Stream& outContent, const 
   LOG_DBG("HTTP", "Fetching: %s", url.c_str());
   Sink sink;
   sink.write = [&outContent](const uint8_t* data, size_t len) { return outContent.write(data, len) == len; };
-  return runGet(url, username, password, sink) == OK;
+  return runGet(url, username, password, "", sink) == OK;
 }
 
 bool HttpDownloader::fetchUrl(const std::string& url, std::string& outContent, const std::string& username,
@@ -160,7 +164,7 @@ bool HttpDownloader::fetchUrl(const std::string& url, std::string& outContent, c
     outContent.append(reinterpret_cast<const char*>(data), len);
     return true;
   };
-  return runGet(url, username, password, sink) == OK;
+  return runGet(url, username, password, "", sink) == OK;
 }
 
 bool HttpDownloader::fetchUrl(const std::string& url, const DataCallback& onData, const std::string& username,
@@ -168,7 +172,56 @@ bool HttpDownloader::fetchUrl(const std::string& url, const DataCallback& onData
   LOG_DBG("HTTP", "Fetching: %s", url.c_str());
   Sink sink;
   sink.write = onData;
-  return runGet(url, username, password, sink) == OK;
+  return runGet(url, username, password, "", sink) == OK;
+}
+
+bool HttpDownloader::fetchBearer(const std::string& url, std::string& outContent, const std::string& bearerToken) {
+  LOG_DBG("HTTP", "Fetching (bearer): %s", url.c_str());
+  outContent.clear();  // start clean; the sink appends, so don't carry prior content
+  Sink sink;
+  sink.write = [&outContent](const uint8_t* data, size_t len) {
+    outContent.append(reinterpret_cast<const char*>(data), len);
+    return true;
+  };
+  return runGet(url, "", "", bearerToken, sink) == OK;
+}
+
+bool HttpDownloader::postBearer(const std::string& url, const std::string& bearerToken) {
+  LOG_DBG("HTTP", "POST (bearer): %s", url.c_str());
+  esp_http_client_config_t config = {};
+  config.url = url.c_str();
+  config.buffer_size = HTTP_RX_BUF;
+  config.buffer_size_tx = HTTP_TX_BUF;
+  config.timeout_ms = HTTP_TIMEOUT_MS;
+  config.crt_bundle_attach = esp_crt_bundle_attach;  // verified HTTPS, same as runGet
+  config.method = HTTP_METHOD_POST;
+
+  esp_http_client_handle_t client = esp_http_client_init(&config);
+  if (!client) {
+    LOG_ERR("HTTP", "client init failed");
+    return false;
+  }
+  esp_http_client_set_header(client, "User-Agent", "CrossPoint-ESP32-" CROSSPOINT_VERSION);
+  if (!bearerToken.empty()) {
+    const std::string header = "Bearer " + bearerToken;
+    esp_http_client_set_header(client, "Authorization", header.c_str());
+  }
+
+  // Bodyless POST: open with a 0-length write, then read the response status.
+  const esp_err_t err = esp_http_client_open(client, 0);
+  if (err != ESP_OK) {
+    LOG_ERR("HTTP", "POST open failed: %s", esp_err_to_name(err));
+    esp_http_client_cleanup(client);
+    return false;
+  }
+  esp_http_client_fetch_headers(client);
+  const int status = esp_http_client_get_status_code(client);
+  esp_http_client_cleanup(client);
+
+  // Todoist's close endpoint replies 204 No Content on success.
+  const bool ok = status >= 200 && status < 300;
+  if (!ok) LOG_ERR("HTTP", "POST unexpected status: %d", status);
+  return ok;
 }
 
 HttpDownloader::DownloadError HttpDownloader::downloadToFile(const std::string& url, const std::string& destPath,
@@ -190,7 +243,7 @@ HttpDownloader::DownloadError HttpDownloader::downloadToFile(const std::string& 
   sink.cancelFlag = cancelFlag;
   sink.write = [&file](const uint8_t* data, size_t len) { return file.write(data, len) == len; };
 
-  const DownloadError result = runGet(url, username, password, sink);
+  const DownloadError result = runGet(url, username, password, "", sink);
   // Close before any remove() on the same path; DESTRUCTOR_CLOSES_FILE would
   // otherwise close only after the remove.
   file.close();

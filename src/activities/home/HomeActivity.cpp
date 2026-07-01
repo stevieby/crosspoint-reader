@@ -17,6 +17,7 @@
 #include "MappedInputManager.h"
 #include "OpdsServerStore.h"
 #include "RecentBooksStore.h"
+#include "TodoistConfig.h"
 #include "components/UITheme.h"
 #include "fontIds.h"
 
@@ -27,6 +28,9 @@ int HomeActivity::getMenuItemCount() const {
   }
   if (hasOpdsServers) {
     count++;
+  }
+  if (hasTodoist) {
+    count += 2;  // Today's Tasks, Goals This Week
   }
   return count;
 }
@@ -112,12 +116,14 @@ void HomeActivity::onEnter() {
   Activity::onEnter();
 
   hasOpdsServers = OPDS_STORE.hasServers();
+  hasTodoist = TodoistConfig::exists();
 
   const auto& metrics = UITheme::getInstance().getMetrics();
   loadRecentBooks(metrics.homeRecentBooksCount);
 
   const auto base = static_cast<int>(recentBooks.size());
-  selectorIndex = initialMenuItem == HomeMenuItem::NONE ? 0 : base + menuItemToIndex(initialMenuItem, hasOpdsServers);
+  selectorIndex =
+      initialMenuItem == HomeMenuItem::NONE ? 0 : base + menuItemToIndex(initialMenuItem, hasOpdsServers, hasTodoist);
 
   // Trigger first update
   requestUpdate();
@@ -184,7 +190,7 @@ void HomeActivity::loop() {
       onSelectBook(recentBooks[selectorIndex].path);
     } else {
       const int menuIndex = selectorIndex - static_cast<int>(recentBooks.size());
-      switch (indexToMenuItem(menuIndex, hasOpdsServers)) {
+      switch (indexToMenuItem(menuIndex, hasOpdsServers, hasTodoist)) {
         case HomeMenuItem::FILE_BROWSER:
           onFileBrowserOpen();
           break;
@@ -196,6 +202,12 @@ void HomeActivity::loop() {
           break;
         case HomeMenuItem::FILE_TRANSFER:
           onFileTransferOpen();
+          break;
+        case HomeMenuItem::TODOIST_TASKS:
+          onTodoistTasksOpen();
+          break;
+        case HomeMenuItem::TODOIST_GOALS:
+          onTodoistGoalsOpen();
           break;
         case HomeMenuItem::SETTINGS_MENU:
           onSettingsOpen();
@@ -230,15 +242,28 @@ void HomeActivity::render(RenderLock&&) {
                           recentBooks, selectorIndex, coverRendered, coverBufferStored, bufferRestored,
                           std::bind(&HomeActivity::storeCoverBuffer, this));
 
-  // Build menu items dynamically
-  std::vector<const char*> menuItems = {tr(STR_BROWSE_FILES), tr(STR_MENU_RECENT_BOOKS), tr(STR_FILE_TRANSFER),
-                                        tr(STR_SETTINGS_TITLE)};
-  std::vector<UIIcon> menuIcons = {Folder, Recent, Transfer, Settings};
+  // Build menu items dynamically. Order must match menuItemToIndex() /
+  // indexToMenuItem(): Browse, Recents, [OPDS], Transfer, [Todoist x2], Settings.
+  std::vector<const char*> menuItems = {tr(STR_BROWSE_FILES), tr(STR_MENU_RECENT_BOOKS)};
+  std::vector<UIIcon> menuIcons = {Folder, Recent};
 
   if (hasOpdsServers) {
-    menuItems.insert(menuItems.begin() + 2, tr(STR_OPDS_BROWSER));
-    menuIcons.insert(menuIcons.begin() + 2, Library);
+    menuItems.push_back(tr(STR_OPDS_BROWSER));
+    menuIcons.push_back(Library);
   }
+
+  menuItems.push_back(tr(STR_FILE_TRANSFER));
+  menuIcons.push_back(Transfer);
+
+  if (hasTodoist) {
+    menuItems.push_back(tr(STR_TODOIST_TASKS));
+    menuIcons.push_back(Bookmark);
+    menuItems.push_back(tr(STR_TODOIST_GOALS));
+    menuIcons.push_back(Bookmark);
+  }
+
+  menuItems.push_back(tr(STR_SETTINGS_TITLE));
+  menuIcons.push_back(Settings);
 
   if (metrics.homeContinueReadingInMenu && !recentBooks.empty()) {
     // Insert Continue Reading at the top if enabled in theme
@@ -281,3 +306,7 @@ void HomeActivity::onSettingsOpen() { activityManager.goToSettings(); }
 void HomeActivity::onFileTransferOpen() { activityManager.goToFileTransfer(); }
 
 void HomeActivity::onOpdsBrowserOpen() { activityManager.goToBrowser(); }
+
+void HomeActivity::onTodoistTasksOpen() { activityManager.goToTodoistTasks(); }
+
+void HomeActivity::onTodoistGoalsOpen() { activityManager.goToTodoistGoals(); }

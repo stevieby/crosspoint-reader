@@ -1,0 +1,167 @@
+{
+  "tests": 31,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ReleaseJsonParser",
+      "tests": 31,
+      "testsuite": [
+        {
+          "name": "RealisticPrettyPrinted",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 125
+        },
+        {
+          "name": "RealisticMinified",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 137
+        },
+        {
+          "name": "PrettyAndMinifiedAgree",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 149
+        },
+        {
+          "name": "FirmwareNotFirstAsset",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 166
+        },
+        {
+          "name": "FieldOrderUrlBeforeName",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 187
+        },
+        {
+          "name": "FieldOrderSizeBeforeUrl",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 205
+        },
+        {
+          "name": "FieldOrderNameFirst",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 223
+        },
+        {
+          "name": "AssetsBeforeTagName",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 241
+        },
+        {
+          "name": "ChunkedFeedingSmallChunks",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 263
+        },
+        {
+          "name": "ChunkedFeedingByteByByte",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 275
+        },
+        {
+          "name": "ChunkedFeedingVariousChunkSizes",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 285
+        },
+        {
+          "name": "MissingTagName",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 300
+        },
+        {
+          "name": "MissingFirmwareBinAsset",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 319
+        },
+        {
+          "name": "EmptyAssetsArray",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 338
+        },
+        {
+          "name": "NoAssetsKey",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 348
+        },
+        {
+          "name": "TruncatedBeforeTagValue",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 358
+        },
+        {
+          "name": "TruncatedInsideTagValue",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 368
+        },
+        {
+          "name": "TruncatedInsideAssetsArray",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 377
+        },
+        {
+          "name": "TruncatedAfterFirmwareName",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 388
+        },
+        {
+          "name": "TruncatedRealisticJson",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 399
+        },
+        {
+          "name": "NestedObjectsInAsset",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 412
+        },
+        {
+          "name": "NestedObjectsAtTopLevel",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 436
+        },
+        {
+          "name": "ArraysAtTopLevel",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 455
+        },
+        {
+          "name": "ResetAndReuse",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 472
+        },
+        {
+          "name": "ResetClearsState",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 494
+        },
+        {
+          "name": "PartialAssetNameMatch",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 512
+        },
+        {
+          "name": "FirmwareBinExactMatch",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 529
+        },
+        {
+          "name": "LargeSize",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 548
+        },
+        {
+          "name": "SizeZero",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 559
+        },
+        {
+          "name": "MinimalValidJson",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 570
+        },
+        {
+          "name": "ChunkedRealisticEveryBoundary",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/release_json_parser\/ReleaseJsonParserTest.cpp",
+          "line": 583
+        }
+      ]
+    }
+  ]
+}

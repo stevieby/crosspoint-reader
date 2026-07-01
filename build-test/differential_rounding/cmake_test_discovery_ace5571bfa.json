@@ -1,0 +1,68 @@
+{
+  "tests": 10,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Fp4Math",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "RoundTripIntegerPixels",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 110
+        },
+        {
+          "name": "RoundingBoundaries",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 116
+        },
+        {
+          "name": "OldApproachInconsistency",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 132
+        },
+        {
+          "name": "ExhaustiveKernRange",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 151
+        }
+      ]
+    },
+    {
+      "name": "EpdFont",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "KernLookup",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 168
+        },
+        {
+          "name": "GlyphLookup",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 179
+        },
+        {
+          "name": "KnownWidths",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 203
+        },
+        {
+          "name": "PairConsistencyViaFont",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 236
+        },
+        {
+          "name": "NullGlyphAdvancePreserved",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 252
+        },
+        {
+          "name": "HeightCalculation",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/differential_rounding\/DifferentialRoundingTest.cpp",
+          "line": 266
+        }
+      ]
+    }
+  ]
+}

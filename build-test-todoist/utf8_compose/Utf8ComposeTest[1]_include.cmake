@@ -1,0 +1,5 @@
+if(EXISTS "/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/utf8_compose/Utf8ComposeTest[1]_tests.cmake")
+  include("/Users/stevenpillings/Code/crosspoint-reader-todo/build-test-todoist/utf8_compose/Utf8ComposeTest[1]_tests.cmake")
+else()
+  add_test(Utf8ComposeTest_NOT_BUILT Utf8ComposeTest_NOT_BUILT)
+endif()

@@ -1,0 +1,162 @@
+{
+  "tests": 30,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "StreamingJsonParser",
+      "tests": 30,
+      "testsuite": [
+        {
+          "name": "SimpleObject",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 74
+        },
+        {
+          "name": "NestedObjects",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 90
+        },
+        {
+          "name": "ArrayOfValues",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 106
+        },
+        {
+          "name": "ArrayOfObjects",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 125
+        },
+        {
+          "name": "StringEscapes",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 145
+        },
+        {
+          "name": "UnicodeEscapePassthrough",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 153
+        },
+        {
+          "name": "Numbers",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 162
+        },
+        {
+          "name": "BooleansAndNull",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 178
+        },
+        {
+          "name": "ChunkedFeeding",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 187
+        },
+        {
+          "name": "EveryByteBoundary",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 216
+        },
+        {
+          "name": "LargeTokenTruncation",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 235
+        },
+        {
+          "name": "EmptyObject",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 258
+        },
+        {
+          "name": "EmptyArray",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 265
+        },
+        {
+          "name": "NestedArrays",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 272
+        },
+        {
+          "name": "TopLevelArray",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 289
+        },
+        {
+          "name": "WhitespaceVariants",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 302
+        },
+        {
+          "name": "ResetBetweenDocuments",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 314
+        },
+        {
+          "name": "NumberAtEndOfInput",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 332
+        },
+        {
+          "name": "ArrayOfStrings",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 341
+        },
+        {
+          "name": "TruncatedInputNoCrash",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 355
+        },
+        {
+          "name": "AllEscapeSequences",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 370
+        },
+        {
+          "name": "ObjectInArray",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 377
+        },
+        {
+          "name": "DeeplyNested",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 396
+        },
+        {
+          "name": "NestingOverflow",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 413
+        },
+        {
+          "name": "NumberZero",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 425
+        },
+        {
+          "name": "MultipleValuesInObject",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 432
+        },
+        {
+          "name": "ChunkedSplitInsideString",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 444
+        },
+        {
+          "name": "ChunkedSplitInsideEscape",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 461
+        },
+        {
+          "name": "ChunkedSplitInsideLiteral",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 481
+        },
+        {
+          "name": "NullCallbacksNoCrash",
+          "file": "\/Users\/stevenpillings\/Code\/crosspoint-reader-todo\/test\/streaming_json_parser\/StreamingJsonParserTest.cpp",
+          "line": 498
+        }
+      ]
+    }
+  ]
+}
